@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-notify": "*"
+  },
+  "name": "file_compare",
+  "version": "1.0.0",
+  "description": "Compare files in folder",
+  "main": "compare.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobestupid/file_compare.git"
+  },
+  "keywords": [
+    "filecompare"
+  ],
+  "author": "tobestupid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobestupid/file_compare/issues"
+  },
+  "homepage": "https://github.com/tobestupid/file_compare#readme"
+}
